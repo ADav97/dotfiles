@@ -120,18 +120,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias cirrus='powershell.exe "ssh awdavies@login.cirrus.ac.uk"'
-alias bangor='powershell.exe "ssh ndd25bzy@ssh.bangor.ac.uk"'
-
 alias jobwatch='watch -n 5 -t tail -n 50'
-
-alias wpython='~/../../mnt/c/users/DAVIESAW/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/python3.13.exe'
-
 alias gfortran='gfortran-13'
 
 export LS_COLORS="$LS_COLORS:di=01;38;5;105:fi=01;38;5;249:*.gz=01;38;5;207:*.tar=01;38;5;207:*.tgz=01;38;5;207:ow=01;38;5;207:tw=01;38;5;207:no=01;38;5;248:ex=01;38;5;36:"
-
-
 
 alias fzf='fzf --preview="cat {}" --layout=reverse --height=80%'
 alias fzf-tmux='fzf-tmux --preview="cat {}" --layout=reverse --height=80%'
@@ -140,8 +132,3 @@ alias fzf-tmux='fzf-tmux --preview="cat {}" --layout=reverse --height=80%'
 
 PATH="/home/davaw/Quantum-Espresso/qe-6.6/bin:$PATH"
 PATH="/home/davaw/LAMMPS/lammps-29Aug2024/src:$PATH"
-
-
-#alias hades='powershell.exe "ssh adavies@10.85.61.115"'
-alias hades='powershell.exe "ssh adavies@10.85.61.167"'
-
